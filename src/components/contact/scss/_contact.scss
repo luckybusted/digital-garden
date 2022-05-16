@@ -1,10 +1,21 @@
 .contact {
+  margin-top: 1rem;
+
   ul {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
 
     li {
       margin: 0 1rem;
+
+      a {
+        color: var(--color-text);
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
   }
 }

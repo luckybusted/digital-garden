@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
 
-@import "./components/contact/scss/contact";
+@import "./scss/variables";
 
 * {
   padding: 0;
@@ -17,8 +17,16 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 ul {
   list-style: none;
 }
+
+/* COMPONENTS */
+@import "./components/contact/scss/contact";
+@import "./components/headline/scss/headline";
